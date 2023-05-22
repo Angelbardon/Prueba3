@@ -1,5 +1,6 @@
 
-def saludo():
-    print("Hola mundo")
+def saludo(frist_name, last_name):
+    print(f'Hola {frist_name} {last_name}')
     
-saludo()    
+saludo('Angel', 'Bardon')
+saludo('Limpieza', 'Datos')     
